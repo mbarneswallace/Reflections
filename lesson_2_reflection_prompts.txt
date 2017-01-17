@@ -4,6 +4,8 @@ it creates a .git “folder” to keep track of changes in that repository. You 
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
 
+The staging area is a temporary loading area that allows for you to only commit certain files. It allows changes to be made before the commit is officially submitted.
+
 How can you use the staging area to make sure you have one commit per logical
 change?
 
