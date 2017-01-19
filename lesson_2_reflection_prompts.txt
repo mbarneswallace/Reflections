@@ -8,14 +8,23 @@ The staging area is a temporary loading area that allows for you to only commit 
 
 How can you use the staging area to make sure you have one commit per logical
 change?
+	by seeing the differences between the staging area and previous commit 
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
+When making two dramatically different versions of the same code, you can keep both versions and the original code.
+
 How do the diagrams help you visualize the branch structure?
+
+They can help you remember the parent structure of the code.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
+Essentially updating the master branch with changes from all branches. The diagram implies that all commits from the same branch can be accessed by the new merge branch
+
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
+
+saves a lot of time, git can put code in that would create errors and bugs
